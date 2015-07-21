@@ -1,0 +1,33 @@
+
+/* Landscape (1024 px) */
+
+@media only screen and (max-width: 1024px) {
+
+  .wrapper {
+    width: 90%;
+  }
+  #social {
+    position: absolute;
+    top: 100px;
+    right: 5%;
+    width: auto;
+  }
+  #social a {
+    display: inline-block;
+  }
+
+}
+
+
+/* Tablet Portrait: 768px */
+
+@media only screen and (max-width: 768px) {
+  .col1_right, .col2_left {
+    float: none;
+    width: 100px;
+    margin: 0 0 20px;
+  }
+}
+
+
+/* Smartphone Portrait: 320px */
